@@ -256,8 +256,9 @@ footer {
 
   .nav {
     flex-direction: column;
-    gap: 10px;
+    align-items: center;
     height: auto;
+    gap: 10px;
   }
 
   nav {
