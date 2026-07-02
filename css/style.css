@@ -242,3 +242,33 @@ footer {
     gap: 30px;
   }
 }
+
+
+
+
+
+@media (max-width: 768px) {
+
+  header {
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .nav {
+    flex-direction: column;
+    gap: 10px;
+    height: auto;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  nav a {
+    margin: 0;
+  }
+
+}
